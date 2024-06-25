@@ -190,7 +190,7 @@ img {
 }
 
 @media (max-width: 768px) {
-.row {
+.outer {
         display: block;
         max-height: calc(var(--vh, 1vh) * 70);
         align-items: center;
