@@ -44,9 +44,7 @@ h1 {
 }
 
 .column-50 {
-    /* flex: 50%; */
     width: 100%;
-    padding: 5%;
     position: relative;
 }
 
