@@ -44,9 +44,7 @@ h1 {
 }
 
 .column-50 {
-    /* flex: 50%; */
     width: 100%;
-    padding: 5%;
     position: relative;
 }
 
@@ -93,7 +91,7 @@ button {
 }
 
 #umbrella-image {
-    
+    object-fit: contain;
    max-width: 90%;
 }
 #notification-popup{
@@ -190,7 +188,7 @@ img {
 }
 
 @media (max-width: 768px) {
-.row {
+.outer {
         display: block;
         max-height: calc(var(--vh, 1vh) * 70);
         align-items: center;
